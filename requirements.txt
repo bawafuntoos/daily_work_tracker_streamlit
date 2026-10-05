@@ -1,2 +1,11 @@
 streamlit>=1.50.0
 requests>=2.32.0
+pandas==2.2.2
+numpy==2.1.0
+sqlalchemy==2.0.32
+alembic==1.13.2
+psycopg2-binary==2.9.9   # if you connect to PostgreSQL
+fastapi==0.115.0         # only if you expose FastAPI endpoints
+uvicorn==0.30.6          # only if you run FastAPI locally
+python-dotenv==1.0.1     # for environment variables
+
