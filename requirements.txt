@@ -1,2 +1,8 @@
 streamlit==1.38.0
 requests==2.32.3
+pandas==2.2.2
+numpy==2.1.0
+sqlalchemy==2.0.32        # for database models
+alembic==1.13.2           # for migrations
+psycopg2-binary==2.9.9    # PostgreSQL driver
+python-dotenv==1.0.1      # environment variables
